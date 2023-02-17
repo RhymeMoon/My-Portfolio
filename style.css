@@ -1,0 +1,53 @@
+body   {
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(44, 44, 44),rgb(0, 0, 0));
+}
+
+#nav-bar    {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar {
+    background-image: linear-gradient(to left,#434343,#000000);
+    padding:0 !important;
+}
+.navbar-brand img   {
+    height: 40px;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+.navbar-brand   {
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav li  {
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-nav li a:hover  {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+
+/* --------content1----------- */
+
+.indention  {
+    text-indent: 75px;
+}
+.raymund    {
+    color: red ;
+}
+
+/* ----------footer----------- */
+footer{
+    background-image: linear-gradient(to left,#434343,#000000);
+}
