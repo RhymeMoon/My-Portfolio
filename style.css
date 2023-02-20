@@ -1,6 +1,7 @@
-body   {
+    body   {
     background-image: linear-gradient(rgb(0, 0, 0),rgb(44, 44, 44),rgb(0, 0, 0));
 }
+
 
 #nav-bar    {
     position: sticky;
@@ -27,28 +28,29 @@ body   {
 }
 .navbar-nav li a{
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     float: right;
     text-align: left;
 }
 .navbar-nav li a:hover  {
-    background-color: white;
-    color: black;
+    background-color:rgb(180, 38, 38);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
 }
-
-
 /* --------content1----------- */
 
 .indention  {
     text-indent: 75px;
     text-align: justify;
+    background-color: rgb(223, 223, 223);
 }
 .raymund    {
-    color: red ;
+    color: rgb(255, 0, 0);
 }
 p   {
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    
 }
 @media (max-width:550px) {
     p {
@@ -60,27 +62,41 @@ p   {
 }
 /* -----------------about---------------- */
 .nav-item a{
-    color: white;
-    margin-right: 50px;
+    color:rgb(255, 255, 255);
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     border-radius: 10px ;
+    transition: 0.8s;
+    display: flex;
+    margin: 5px;
 
 }
 .nav-item a:hover  {
-  color: white;
-  transition: 0.9s;
+  color: rgb(255, 255, 255);
+
 }
 .nav-link.active{
-    background-color: white;
-    color: rgb(255, 0, 0) !important;
+    background-color: rgb(180, 38, 38);
+    color:rgb(255, 255, 255) !important;
     border-radius: 10px;
+}
+.tab-pane   {
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 40px;
 }
 .tab-pane li{
     font-size: 25px;
     margin: 5px 0;
-
+    font-weight: 500;
+    list-style-type: none;
+    text-indent: -30px;
+}
+.tab-pane li::before    {
+    content: '⇒';
+    padding-right: 8px;
 }
 @media (max-width:550px) {
     .tab-pane li {
@@ -90,18 +106,6 @@ p   {
         font-size: 20px;
     }
 }
-.tab-pane span{
-    color: red;
-}
-
-
-
-
-
-
-
-
-
 
 
 /* ----------footer----------- */

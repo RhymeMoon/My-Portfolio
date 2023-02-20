@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+   
 </head>
 <body class="position-relative">
     <section id="nav-bar" class="sticky-top">
-        <nav class="navbar navbar-expand-md navbar-dark  ">
+        <nav class="nav navbar navbar-expand-md navbar-dark  ">
             <a class="navbar-brand" href="#">
               <img src="image/logo.png">
               <span class="text-white">PORTFOLIO</span>
@@ -25,13 +25,13 @@
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a href="" class="nav-link">Home</a>
+                    <a href="#top" class="nav-link">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link" >About</a>
                   </li>
                   <li class="nav-item">
-                    <a href="" class="nav-link">Contacts</a>
+                    <a href="#contact" class="nav-link" >Contacts</a>
                   </li>
                 </ul>   
               </div>
@@ -39,18 +39,17 @@
     </section>
 <!-- home section -->
   <div class="container bg-dark d-grid">
-    <section id="home">
+    <section id="home" >
       <div class="home-container row d-flex align-items-center">
-
         <div class="col-lg-4 col-md-5 col-sm-12 p-5">
           <img class="rounded-4 border border-5 border-danger" src="image/319015626_6089856831047203_2556224477008468604_n.jpg" style="width: 100%;">
         </div>
 
         <h1 class="col-lg-8 col-md-7 col-sm-12 display-3 fw-bolder text-white  justify-content-center px-5">
-          I'm <span class="raymund fw-bolder display-1 d-wrap">Raymund</span> Aban!
+          My name is <br> <span class="raymund fw-bolder display-1 d-wrap">Raymund</span> Aban!
         </h1>
-        <div class="text-white px-5" style="height:fit-content;">
-          <p class="indention p-4">My dream is to become an expert in the field of <span class="fw-bolder">Web Developing</span>. Today, the online experience is essential to the success of every business and organization. Without a web developer, companies are left using drag-and-drop web builders like Squarespace or a WordPress template.
+        <div class="sub-title text-dark" style="height:fit-content;">
+          <p class="indention p-4 rounded-4">My dream is to become an expert in the field of <span class="fw-bolder">Web Developing</span>. Today, the online experience is essential to the success of every business and organization. Without a web developer, companies are left using drag-and-drop web builders like Squarespace or a WordPress template.
          While these might do the trick for some companies, many more rely on a web developer or team of developers to deliver the unique, engaging, and well-designed experiences consumers today.
           Web development is an industry that offers a flexible way to break into tech. You can work part-time as a freelancer to earn income through a side hustle while you also nurture other opportunities. You can then grow that freelance work into your own business and work solo building web pages someday.</p>
         </div>                         
@@ -58,57 +57,68 @@
     </section><hr class="border-light">
     <section  id="about">
       <div class="container mb-5 pb-5">
-        <div class="row d-flex align-items-center text-white  px-5">
-          <h1 class="fw-bolder text-white pt-5 display-1">About</h1>
-          <p class="indention p-4"><i>I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.</i></p>
+        <div class="row d-flex align-items-center text-dark">
+          <h1 class="fw-bolder text-white pt-5 display-1">Who am I?</h1>
+          <p class="indention p-4 rounded-4">I am <span class="text-danger">Raymund Tampos Aban</span> and I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.</p>  
           <ul class="nav mt-4">
-            <li class="nav-item col">
-              <a href="#skills" class="nav-link active" data-bs-toggle="tab">Skills</a>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link active" data-bs-toggle="tab">Skills</a><img src="" alt="">
             </li>
-            <li class="nav-item col">
+            <li class="nav-item">
               <a href="#education" class="nav-link" data-bs-toggle="tab">Education</a>
             </li>
-            <li class="nav-item col">
+            <li class="nav-item ">
               <a href="#experience" class="nav-link" data-bs-toggle="tab">Experience</a>
             </li>
           </ul>
 
-          <div class="tab-content text-white py-5">
-              <ul class="tab-pane active" id="skills">
-                <li><i>Computer Literacy, Proficient at MS Word, Excel, and PowerPoint</i></li>
-                <li><i>Strong technical capabilities with a commitment to deliver quality outcome</i> </li>
-                <li><i>Worked with multidisciplinary teams to achieve common goals.</i></li>
-                <li><i>Committed to ongoing learning and career development.</i></li>
+          <div class="tab-content text-dark p-0">
+              <ul class="tab-pane h3 active" id="skills">
+                <li class="mb-4"><i>Knowledge of the HTML language with CSS and Bootstrap.</i></li>
+                <li class="mb-4"><i>Proficient at MS Word, Excel, and PowerPoint</i></li>
+                <li class="mb-4"><i>Strong technical capabilities with a commitment to deliver quality outcome</i> </li>
+                <li class="mb-4"><i>Worked with multidisciplinary teams to achieve common goals.</i></li>
+                <li class="mb-4"><i>Committed to ongoing learning and career development.</i></li>
               </ul>
               <ul class="tab-pane" id="education">
-                <li><span class="h2">College</span><br> BUKIDNON STATE UNIVERSITY (2009-2013)<br>
+                <li><span class="h2 fw-bolder">BUKIDNON STATE UNIVERSITY</span><br>
                   Bachelor of Science in Business Administration <br>
-                  Major: Financial Management (FM)
+                  Major: Financial Management (FM) <br>
+                  (2009-2013)
                 </li>
-                <li><span class="h2">High School</span><br> MONKAYO NATIONAL HIGH SCHOOL (2005-2009)<br>
-                  Poblacion, Monkayo, Compostela Valley Province                  
-                </li>
-                <li><span class="h2">Primary</span><br> TUBURAN CASOON ELEMENTARY SCHOOL (1999-2005)<br>
-                  Tuburan, Casoon, Monkayo, Compostela Valley Province
-                  </li>
               </ul>
-              <ul class="row tab-pane" id="experience">
-                <li>RSG Encoder <br>
+              <ul class="tab-pane" id="experience">
+                <li><span class="fw-bolder">RSG Encoder</span> <br>
                     LTS Community Store, Inc. <br>
                     HB1 Branch
                 </li>
-                <li>Store Coordinator <br>
+                <li><span class="fw-bolder">Store Coordinator</span><br>
                     LTS Pinnacle Holdings, Inc. <br>
                     Admin Department
                 </li>
-                <li>Order Placer Representative <br>
+                <li><span class="fw-bolder">Order Placer Representative</span><br>
                     CNM BPO Solutions
                   </li>
               </ul>
           </div>                        
         </div>
       </div>
-     
+    </section><hr class="border-light">
+    <section id="contact">
+      <div class="row mb-5 pb-5 text-light">
+        <div class="col">
+          <h1 class="fw-bolder text-white pt-5 display-1 justify-content-center d-flex">Get in Touch</h1>
+          <form action="">
+            <input class="form-control mb-4" type="text" placeholder="Input name">
+            <input class="form-control mb-4" type="email" name="" id="" placeholder="Input email">
+            <textarea class="form-control mb-5" name="" id="" cols="30" rows="10" placeholder="Comments"></textarea>
+          </form>
+        </div>  
+        <div class="col-4">
+
+        </div>
+          
+      </div>
     </section>
   </div>
     <footer class="bg-light text-center text-lg-start position-fixed bottom-0 w-100">
