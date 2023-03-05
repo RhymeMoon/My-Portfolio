@@ -3,17 +3,19 @@
 }
 
 
+
 #nav-bar    {
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    position: fixed;
+    width: 100%;
 
 }
 .navbar {
     background-image: linear-gradient(to left,#434343,#000000);
     padding:0 !important;
+    position: absolute;
+    width: 100%;
 }
-.navbar-brand img   {
+.navbar-brand img  {
     height: 40px;
     padding-left: 20px;
     margin-right: 5px;
@@ -23,43 +25,55 @@
     display: flex;
     align-items: center;
 }
-.navbar-nav li  {
-    padding: 0 10px;
+.navbar-nav{
+    align-items: end;
 }
-.navbar-nav li a{
+a{
     color: white;
     font-weight: 700;
-    float: right;
     text-align: left;
 }
-.navbar-nav li a:hover  {
+.active {
     background-color:rgb(180, 38, 38);
     color: rgb(255, 255, 255);
     border-radius: 10px;
+    width: 100%;
+    transition: 1s;
+    justify-content: end;
+    width: fit-content;
+    font-size: 30px;
 }
-/* --------content1----------- */
 
-.indention  {
+/* --------HOME----------- */
+.image {
+    width: 100% ;
+}
+
+.carousel, .carousel-inner{
+    box-shadow:10px 10px 10px rgb(255, 0, 0);
+    background-color: red;
+}
+
+.indention {
     text-indent: 75px;
     text-align: justify;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(255, 255, 255);
+    text-shadow: 3px 0px 5px rgb(255, 166, 0);
+    color: rgb(0, 0, 0);
 }
 .raymund    {
     color: rgb(255, 0, 0);
+    text-shadow: 5px 5px 10px white;
+}
+.sub-title{
+    text-shadow: 5px 5px 10px rgb(255, 0, 0);
 }
 p   {
     font-size: 20px;
     font-weight: 700;
     
 }
-@media (max-width:550px) {
-    p {
-    font-size: 12px;
-}
-    h1  {
-        padding-top: 0 !important;
-    }
-}
+
 /* -----------------about---------------- */
 .nav-item a{
     color:rgb(255, 255, 255);
@@ -67,9 +81,9 @@ p   {
     font-weight: 700;
     cursor: pointer;
     border-radius: 10px ;
-    transition: 0.8s;
+    transition: 1s;
     display: flex;
-    margin: 5px;
+    padding: 5px;
 
 }
 .nav-item a:hover  {
@@ -77,9 +91,7 @@ p   {
 
 }
 .nav-link.active{
-    background-color: rgb(180, 38, 38);
     color:rgb(255, 255, 255) !important;
-    border-radius: 10px;
 }
 .tab-pane   {
     background-color: rgb(223, 223, 223);
@@ -88,27 +100,54 @@ p   {
     padding: 10px 40px;
 }
 .tab-pane li{
-    font-size: 25px;
+    font-size: 30px;
     margin: 5px 0;
-    font-weight: 500;
+    font-weight: 700;
     list-style-type: none;
     text-indent: -30px;
+    text-shadow: 3px 0px 5px rgb(255, 166, 0);
+    color: rgb(0, 0, 0);
 }
 .tab-pane li::before    {
     content: '⇒';
     padding-right: 8px;
 }
-@media (max-width:550px) {
+@media (max-width:770px) {
     .tab-pane li {
     font-size: 12px;
     }
     .nav-item a {
         font-size: 20px;
     }
+    p {
+        font-size: 12px;
+    }
+    h1  {
+        padding-top: 0 !important;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer a, .footer {
+        font-size: 12px;
+        color: #00c3fe !important;
+        text-shadow: 3px 0px 5px rgb(255, 0, 0);
+
+    }
+    .navbar {
+        background: none;
+    }
+    .navbar-brand {
+        background-color: #00000081;
+        padding-right: 10px;
+        border-radius: 10px;
+    }
+    .top-menu {
+        color: red !important;
+        text-shadow: 3px 0px 5px rgb(0, 0, 0);
+    }
 }
 
 
 /* ----------footer----------- */
-footer{
-    background-image: linear-gradient(to left,#434343,#000000);
-}
