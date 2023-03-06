@@ -23,7 +23,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="#top" class="top-menu nav-link active text-white">Home</a>
+                <a href="#top" class="top-menu nav-link active">Home</a>
               </li>
               <li class="nav-item">
                 <a href="#about" class="top-menu nav-link ">About</a>
@@ -38,21 +38,21 @@
 <!-- home section -->
   <div class="container bg-dark d-grid p-4">
     <section id="home" >
-      <div class="home-container row d-flex align-items-center">
-        <div class="col-lg-4 col-md-5 col-sm-12 p-5">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-5 col-md-5 col-sm-12 p-5">
           <div id="indicator" class="carousel" data-bs-ride="carousel">
-            <div class="carousel-inner" >
+            <div class="carousel-inner rounded-3" >
               <div class="carousel-item active" data-bs-interval="2000" >
-                <img  class="image" src="image/319015626_6089856831047203_2556224477008468604_n.jpg" alt="Profile-pic">
+                <img  class="image d-block w-100 rounded-3" src="image/319015626_6089856831047203_2556224477008468604_n.jpg" alt="Profile-pic">
               </div>
               <div class="carousel-item" data-bs-interval="2000" >
-                <img class="image" src="image/with hlmt.jpg" class="d-block w-100" alt="Profile-pic">
+                <img class="image d-block w-100 rounded-3" src="image/with hlmt.jpg" alt="Profile-pic">
               </div>
               <div class="carousel-item" data-bs-interval="2000" >
-                <img  class="image" src="image/agnt.jpg" class="d-block w-100" alt="Profile-pic">
+                <img  class="image d-block w-100 rounded-3" src="image/agnt.jpg" class="" alt="Profile-pic">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#indicator" data-bs-slide="prev">
+            <button class="carousel-control-prev " type="button" data-bs-target="#indicator" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#indicator" data-bs-slide="next">
@@ -60,8 +60,8 @@
             </button>
           </div>
         </div>
-        <h1 class="sub-title text-white col-lg-8 col-md-7 col-sm-12 display-3 fw-bolder justify-content-center px-5">
-          My name is <br> <span class="raymund fw-bolder display-1 d-wrap">Raymund</span> Aban!
+        <h1 class="sub-title text-white col-lg-7 col-md-7 col-sm-12 display-3 fw-bolder justify-content-center px-5">
+          My name is <br> <span class="raymund fw-bolder display-1 d-wrap">Raymund !!</span>
         </h1>
         <div class="text-dark" style="height:fit-content;">
           <p class="indention p-4 rounded-4">My dream is to become an expert in the field of <span class="fw-bolder">Web Developing</span>. Today, the online experience is essential to the success of every business and organization. Without a web developer, companies are left using drag-and-drop web builders like Squarespace or a WordPress template.
@@ -69,17 +69,17 @@
           Web development is an industry that offers a flexible way to break into tech. You can work part-time as a freelancer to earn income through a side hustle while you also nurture other opportunities. You can then grow that freelance work into your own business and work solo building web pages someday.</p>
         </div>                         
       </div>
-    </section><hr class="border-light">
+    </section>
 
 <!-- //---------ABOUT SECTION---------// -->
     <section  id="about">
-      <div class="container mb-5 pb-5">
+      <div class="container">
         <div class="row d-flex align-items-center text-dark">
-          <h1 class="sub-title fw-bolder text-white pt-5 display-1">Who am I?</h1>
+          <h1 class="sub-title fw-bolder text-white pt-5 display-1 text-center">Who am I?</h1>
           <p class="indention p-4 rounded-4">I am <span class="text-danger">Raymund Tampos Aban</span> and I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.</p>  
-          <ul class="nav tab mt-4">
+          <ul class="sub-nav nav tab mt-4">
             <li class="nav-item">
-              <a href="#skills" class="nav-link active" data-bs-toggle="tab">Skills</a><img src="" alt="">
+              <a href="#skills" class="nav-link active" data-bs-toggle="tab">Skills</a>
             </li>
             <li class="nav-item">
               <a href="#education" class="nav-link" data-bs-toggle="tab">Education</a>
@@ -89,88 +89,124 @@
             </li>
           </ul>
 <!-- -------------------Nav in about section------------------- -->
-          <div class="tab-content text-dark p-0">
+          <div class="tab-content text-dark mt-3">
               <ul class="tab-pane h3 active" id="skills">
-                <li class="mb-4"><i>Knowledge of the HTML language with CSS and Bootstrap.</i></li>
-                <li class="mb-4"><i>Proficient at MS Word, Excel, and PowerPoint</i></li>
-                <li class="mb-4"><i>Strong technical capabilities with a commitment to deliver quality outcome</i> </li>
-                <li class="mb-4"><i>Worked with multidisciplinary teams to achieve common goals.</i></li>
-                <li class="mb-4"><i>Committed to ongoing learning and career development.</i></li>
+                <li class="row picWithText d-flex ">
+                  <img class="col-6 me-3" src="image/html,java,css.webp">
+                  <p class="col-6 mt-3">Knowledge of the HTML language with CSS, Bootstrap and JavaScript.</p>
+                </li>
+                <li class="row picWithText">
+                  <img class="col-6 me-3" src="image/office.webp">
+                  <p class="col">Proficient at MS Word, Excel, and PowerPoint</p>
+                </li>
+                <li class="row picWithText">
+                  <img src="image/analytical.jpg" class="col-6 me-3">
+                  <p class="col">Strong technical capabilities with a commitment to deliver quality outcome</p> 
+                </li>
+                <li class="row picWithText">
+                  <img src="image/team.jpg" class="col-6 me-3">
+                  <p class="col">Worked with multidisciplinary teams to achieve common goals.</p>
+                </li>
+                <li class="row picWithText">
+                  <img src="image/growth.webp" class="col-6 me-3">
+                  <p class="col">Committed to ongoing learning and career development.</p>
+                </li>
               </ul>
-              <ul class="tab-pane" id="education">
-                <li><span class="h2 fw-bolder">BUKIDNON STATE UNIVERSITY</span><br>
-                  Bachelor of Science in Business Administration <br>
-                  Major: Financial Management (FM) <br>
-                  (2009-2013)
+              <ul class="tab-pane p-0" id="education">
+                <li class="row">
+                  <img class="col" src="image/school.jpg" >
+                  <p class="col"><span class="h2 fw-bolder">BUKIDNON STATE UNIVERSITY</span><br>
+                    Bachelor of Science in Business Administration <br>
+                    Major: Financial Management (FM) <br>
+                    (2009-2013)
+                  </p>
                 </li>
               </ul>
               <ul class="tab-pane" id="experience">
-                <li><span class="fw-bolder">RSG Encoder</span> <br>
+                <li class="picWithText row">
+                  <img class="col" src="image/encoder.jpg">
+                  <p class="col">
+                    <span class="fw-bolder">RSG Encoder</span> <br>
                     LTS Community Store, Inc. <br>
                     HB1 Branch
+                  </p>
                 </li>
-                <li><span class="fw-bolder">Store Coordinator</span><br>
+                <li class="picWithText row">
+                  <img src="image/coordinator.jpeg" class="col">
+                  <p class="col"> 
+                    <span class="fw-bolder">Store Coordinator</span><br>
                     LTS Pinnacle Holdings, Inc. <br>
                     Admin Department
+                  </p>
                 </li>
-                <li><span class="fw-bolder">Order Placer Representative</span><br>
+                <li class="picWithText row">
+                  <img src="image/orderplacer.jpeg" class="col">
+                  <p class="col">
+                    <span class="fw-bolder">Order Placer Representative</span><br>
                     CNM BPO Solutions
+                  </p>
                   </li>
               </ul>
           </div>                        
         </div>
       </div>
-    </section><hr class="border-light">
+    </section>
 
 <!-- //--------CONTACT---------// -->
     <section id="contact">
-      <div class="row mb-5 pb-5 text-light">
-        <div class="col-8">
-          <h1 class="sub-title fw-bolder text-white pt-5 display-1 justify-content-center d-flex">Get in Touch</h1>
-          <form class="row" action="https://formsubmit.co/a218c7062a7ab733d59b2cb7e544481a" method="POST">
-            <div class="d-flex">
-              <div class="col form-group me-2">
-                <label for="nameInfo">FIRST NAME</label>
-                <input class="form-control mb-4" id="fNameInfo" type="text" name="Firstname" placeholder="First name" required>
+      <div class="container">
+        <div class="row mb-5 pb-5 text-white fw-bolder">
+          <div class="inputContainer" >
+            <h1 class="sub-title fw-bolder text-white pt-5 display-1 justify-content-center d-flex">Get in Touch</h1>
+            <form class="contact-form" action="https://formsubmit.co/a218c7062a7ab733d59b2cb7e544481a" method="POST">
+              <div class="d-flex row">
+                <div class="col-md-4 form-group">
+                  <label for="nameInfo">FIRST NAME</label>
+                  <input class="form-control mb-4 fw-bold" id="fNameInfo" type="text" name="Firstname" placeholder="First name" required>
+                </div>
+    
+                <div class="col-md-4 form-group">
+                  <label for="lNamInfo">LAST NAME</label>
+                  <input class="form-control mb-4 fw-bold" id="lNameInfo" type="text" name="Lastname" placeholder="Last name" required>
+                </div>
+    
+                <div class="col-md-4 form-group">
+                  <label for="contactInfo">CONTACT #</label>
+                  <input class="form-control mb-4 fw-bold" id="contactInfo" type="number" name="Contact-number" placeholder="Contact number" required>
+                </div> 
+              </div>
+                     
+  
+              <div class="form-group">
+                <label for="emailInfo">EMAIL ADDRESS</label>
+                <input class="col form-control mb-4 fw-bold" id="emailInfo" type="email" name="email" id="" placeholder="Input email" required>
               </div>
   
-              <div class="col form-group me-2">
-                <label for="lNamInfo">LAST NAME</label>
-                <input class="form-control mb-4" id="lNameInfo" type="text" name="Lastname" placeholder="Last name" required>
+              <div class="form-group">
+                <label for="comment">COMMENTS</label>
+                <textarea class="col-12 form-control mb-5 fw-bold" name="comments" id="comment" cols="30" rows="10" placeholder="Comments..." required></textarea>
               </div>
   
-              <div class="col form-group">
-                <label for="contactInfo">CONTACT #</label>
-                <input class="form-control mb-4" id="contactInfo" type="number" name="Contact-number" placeholder="Contact number" required>
-              </div> 
-            </div>
-                   
-
-            <div class="form-group">
-              <label for="emailInfo">EMAIL ADDRESS</label>
-              <input class="col form-control mb-4" id="emailInfo" type="email" name="email" id="" placeholder="Input email" required>
-            </div>
-
-            <div class="form-group">
-              <label for="comment">COMMENTS</label>
-              <textarea class="col-12 form-control mb-5" name="comments" id="comment" cols="30" rows="10" placeholder="Comments" required></textarea>
-            </div>
-
-            <div class="form-group">
-              <button type="submit">SUBMIT</button>
-            </div>
-          </form>
-
-
-        </div>  
-        <div class="col-4">
-           <form>
-                <button class="btn" type="submit" formaction="https://www.facebook.com/aban.raymund"><img src="image/icons8-facebook.gif"></button>
-                <button class="btn" type="submit" formaction="https://github.com/RhymeMoon"><img src="image/icons8-github.gif"></button>
-                <button class="btn" type="submit" formaction></button>
+              <div class="form-group d-flex justify-content-center">
+                <button type="submit" class="rounded-3 fw-bolder">SUBMIT</button>
+              </div>
             </form>
+  
+            <div class="contact-icons">
+              <form>
+                   <button type="submit" formaction="https://www.facebook.com/aban.raymund">
+                     <img class="rounded-2" src="image/icons8-facebook.gif" style="width: 50px;">
+                   </button>
+                   <button type="submit" formaction="https://github.com/RhymeMoon">
+                     <img class="rounded-2" src="image/icons8-github.gif" style="width: 50px;">
+                   </button>
+                   <button type="submit" formaction="https://twitter.com/raymundaban">
+                     <img class="rounded-2" src="image/icons8-twitter.gif" style="width: 50px;">
+                   </button>
+               </form>
+           </div>
+          </div>
         </div>
-          
       </div>
     </section>
   </div>
