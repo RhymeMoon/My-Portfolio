@@ -7,6 +7,7 @@ body   {
 #nav-bar    {
     position: fixed;
     width: 100%;
+   
 
 }
 .navbar {
@@ -16,16 +17,20 @@ body   {
     width: 100%;
 }
 .navbar-brand img  {
+    background-color:rgb(255, 0, 0);
     height: 40px;
     margin: 0 5px;
     border-radius: 5px;
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fd0000, 0 0 40px rgb(255, 0, 0);
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fd7e00, 0 0 40px #fd7e00;
 }
-.navbar-brand   {
+.navbar-brand   { 
+    background-color: #ff000081;
+    padding-right: 10px;
+    border-radius: 10px; 
     cursor: default;
     display: flex;
     align-items: center;
- 
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fd0000, 0 0 40px rgb(255, 0, 0);
 }
 .navbar-nav{
     align-items: end;
@@ -33,6 +38,7 @@ body   {
 a{
     color: white;
     font-weight: 700;
+    padding: 5px;
     text-align: left;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -78,7 +84,8 @@ h1{
 }
 
 .resume {
-    font-size: 30px !important;
+    font-size: 17px !important;
+    text-decoration: underline;
     border: none !important;
     font-weight:bolder !important;
     color: rgb(255, 0, 0) !important;
@@ -210,6 +217,7 @@ span {
         margin-bottom: 0;
         padding-top: 20px;
     }
+ 
     .sub-title {
         padding: 0 !important;
     }
@@ -221,8 +229,12 @@ span {
         font-size: 20px !important;
         margin-bottom: 50px;
     }
+    .raymund    {
+        font-size: 30px !important;
+    }
     h1  {
         padding-top: 20px !important;
+        font-size: 25px !important;
     }
     #myWorks {
         margin-bottom: 50px;
